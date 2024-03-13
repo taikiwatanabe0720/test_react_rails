@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<%= react_component("PostIndex", { posts: @posts }) %> 
+
+<br>
+
+<%= link_to 'New Post', new_post_path %>
